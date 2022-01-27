@@ -1,0 +1,23 @@
+name:"[#DC143C]ZXC Extractor"
+type: Fracker
+description: вытягивает из под земли залежи пластана и титана,преобразуя это в ZXC Water принудительно очищенную от Нефти.Требует огромного кол-ва энергии,так как механизм у этого насоса очень сложный и требовательный
+size: 3
+liquidCapacity: 120
+result: zxcwater
+attribute: water
+pumpAmount: 1.5
+itemUseTime: 210
+consumes: {
+  power: 30
+  items: {
+    items: [
+    ]
+  }
+}
+category: production
+alwaysUnlocked:true
+requirements: [
+  lead/475
+  metaglass/550
+ 
+]

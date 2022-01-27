@@ -1,0 +1,23 @@
+name: "[#ff99cc]Zxc Projector [#ff0000][Balance]"
+type: OverdriveProjector
+size: 1
+range: 100
+description: АЛО КИРИЛЛ НАМ СТРАЖ ЯДРО ХУЯРИТ. А теперь на серьезке.Я считаю это Баланс карта. Почему??? - спросишь ты.Судя логически можно прийти к выводу что разрабы тоже нихуево обосрались,ибо на 20-30 фулл страж = разъебанная база. Поэтому о балансе даже речи может не идти как бы.
+reload: 5
+speedBoost:1.75
+health: 400
+useTime: 300
+consumes: { 
+ items: { 
+ items: [copper/0]
+   booster: true
+   optional: true
+  }
+ }
+buildCostMultiplier: 0.0
+alwaysUnlocked:true
+category:effect
+requirements: [
+      { "item": "titanium", "amount": 100 }
+	  { "item": "plastanium", "amount": 75 }
+] 

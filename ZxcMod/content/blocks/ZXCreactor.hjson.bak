@@ -1,0 +1,31 @@
+name: "[#66ffff]ZXC Titanium Reactor[#ff0000] [Balance]"
+type: ImpactReactor
+description: НУ ДА КИРИЛЛ БЛЯТЬ -5К ЭНЕРГИИ БЛЯТЬ ДА ПОЧЕМУ НАХУЙ???? -Да у нас опять труба протекла:)
+liquidCapacity: 240
+itemCapacity: 140
+itemDuration: 90
+size: 3
+hasLiquids: true
+powerProduction: 50
+plasma1: 5a58c4
+plasma2: 7382f0
+consumes: {
+  power: 10
+  liquid: {
+    liquid: zxc-water
+    amount: 0.5
+	}
+  items: {
+    items: [
+      titanium/6
+    ]
+  }
+}
+requirements: [
+  lead/1250
+  titanium/1200
+]
+category: power
+ambientSound: pulse
+ambientSoundVolume: 0.05
+alwaysUnlocked:true
