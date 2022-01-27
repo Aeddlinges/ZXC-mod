@@ -1,0 +1,23 @@
+name: "[#DC143C]ZXC Water mixer"
+type: "GenericCrafter"
+description: "Благодаря новейшим технологиям мешалка ZXC воды может выборочно отделять из нефти пластан и титан преобразуя их в ZXC воду."
+liquidCapacity: 250
+outputLiquid: zxcwater/19
+hasPower: true
+size: 2
+health: 450
+hasLiquids: true
+craftTime: 18
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 5.0
+	liquid: "oil/0.45"
+}
+requirements: [
+	plastanium/100
+	titanium/225
+]
+category: "crafting"
+research: "melter"
+ambientSound: "machine"
+ambientSoundVolume: 0.2

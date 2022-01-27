@@ -1,0 +1,25 @@
+name: "[#ff99cc]Ultra Zxc Projector [#ff0000] [Balance]"
+type: OverdriveProjector
+size: 1
+range: 75
+description: Начнем с того,что Баланса в этой игре как не было так и нет. Ну типа чел как бы ты плохо это не осознавал правда остается правдой поэтому привыкай. Горечно,но в этом есть смысл.на что ты вообще надеялся блять гений?)
+reload: 5
+speedBoost:3.5
+health: 780
+useTime: 300
+consumes: { 
+ items: { 
+ items: [copper/0]
+   booster: true
+   optional: true
+  }
+ }
+buildCostMultiplier: 0.0
+alwaysUnlocked:true
+category:effect
+requirements: [
+      { "item": "titanium", "amount": 300 }
+	  { "item": "plastanium", "amount": 150 }
+] 
+
+

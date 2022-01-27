@@ -1,0 +1,26 @@
+name: "[#6666ff]Kinetic Creator[#ff0000] [Balance]"
+type: genericCrafter
+craftTime: 30
+size: 2
+drawer: {
+  type: drawAnimation
+}
+hasPower: true
+hasLiquids: false
+consumes: {
+  items: {
+    items: [
+      titanium/6
+      coal/4
+    ]
+  }
+  power: 5
+}
+craftEffect: smokeCloud
+requirements: [
+  titanium/500
+  plastanium/350
+]
+category: crafting
+outputItem: surge-alloy/5
+alwaysUnlocked:true
